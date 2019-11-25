@@ -1,3 +1,8 @@
+/**
+ * 给定一个含有 M x N 个元素的矩阵（M 行，N 列），请以对角线遍历的顺序返回这个矩阵中的所有元素，对角线遍历如下图所示。
+ * @param {*} arr 
+ * https://leetcode-cn.com/explore/learn/card/array-and-string/199/introduction-to-2d-array/774/
+ */
 function getDiagonal(arr) {
   if(!arr.length) return []
   const m = arr.length //行
