@@ -2,6 +2,8 @@
  * @param {number[][]} matrix
  * @return {number[]}
  */
+
+ //解法一 80ms
 var spiralOrder = function(matrix) {
     if (!matrix.length || matrix === null) return []
     let n = matrix.length, m = matrix[0].length
@@ -27,7 +29,7 @@ var spiralOrder = function(matrix) {
     }
     return resArr
 };
-
+//解法二 60ms
 var spiralOrder1 = function(matrix) {
   if(!matrix.length || matrix === null) return []
   const resArr = []
