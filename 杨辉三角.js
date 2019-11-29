@@ -2,6 +2,7 @@
  * @param {number} numRows
  * @return {number[][]}
  */
+//68ms
 var generate = function(numRows) {
   let resArr = []
   if(numRows === 0) return []
@@ -29,7 +30,7 @@ var generate = function(numRows) {
   }
   return resArr
 };
-
+//56ms
 var generate1 = function(numRows) {
   let resArr = []
   for(let i =0; i < numRows; i++) {
@@ -50,4 +51,4 @@ var generate1 = function(numRows) {
   return resArr
 };
 
-console.log(generate1(7))
+console.log(generate1(700))
