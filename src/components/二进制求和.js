@@ -18,10 +18,7 @@ var addBinary = function(a, b) {
       a = '0' + a
     }
   }
-  let numa = a.split('').reverse()
-  let numb = b.split('').reverse()
-  let flag = 0
-  let resArr = []
+  let numa = a.split('').reverse(), numb = b.split('').reverse(), flag = 0, resArr = []
   for(let i = 0; i < numa.length; i++) {                      
     let cur = Number(numa[i]) + Number(numb[i]) + flag
     if(cur < 2) {
