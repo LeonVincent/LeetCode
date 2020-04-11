@@ -27,7 +27,7 @@ module.exports = {
     extensions: ['.js', '.jsx', '.tsx', '.css', '.json']
   },
   devServer: {
-    port: 8000
+    port: 8001
   },
   plugins: [
     new CleanWebpackPlugin(),
